@@ -1,0 +1,12 @@
+# Ignorer tous les fichiers et dossiers qui commencent par un point
+.*
+
+# Sauf ces fichiers spécifiques
+!.gitignore
+!.project
+
+# Ignorer le dossier tests situé à la racine
+/tests/
+
+# Ignorer le fichier temp.txt à la racine
+/temp.txt
